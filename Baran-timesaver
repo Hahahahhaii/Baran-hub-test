@@ -152,40 +152,10 @@ Callback = <function> - The function of the button.
 
 
 Tab:AddButton({
-	Name = "Apple Hub",
-	Callback = function()
-      		print("button pressed")
-      getgenv().NgonNguScript = true
-repeat task.wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHub/main/LoaderBF"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-
-Tab:AddButton({
 	Name = "Min Gaming Hub",
 	Callback = function()
       		print("button pressed")
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyybeta/mingane/main/MinGamingNew.lua"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-
-Tab:AddButton({
-	Name = "Z-azure (copia do w-azure)",
-	Callback = function()
-      		print("button pressed")
-      loadstring(game:HttpGet("https://shz.al/dwdT/MainLoader.lua"))()
   	end    
 })
 
