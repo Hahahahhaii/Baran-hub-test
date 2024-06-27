@@ -166,9 +166,69 @@ Callback = <function> - The function of the button.
 
 
 local Section = Tab:AddSection({
-	Name = "Mais scripts depois"
+	Name = "Update baran hub! filhos da puta desses YouTuber fudido passando fome é?"
 })
 
 --[[
 Name = <string> - The name of the section.
 ]]
+
+
+Tab:AddButton({
+	Name = "Rinx hub",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGetAsync"https://github.com/RinXHub/Oowo22./raw/main/output.lua")()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "cockka hub key toda hora muda mas pobre não pode reclamar",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "Gomu hub",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/pokelok/Gomu-2.0/main/2'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+local Tab = Window:MakeTab({
+	Name = "Credits info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "feito por baran se insceve no meu canal do yt capybara tutorials"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
