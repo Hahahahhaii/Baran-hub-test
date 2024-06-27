@@ -33,16 +33,6 @@ Tab:AddButton({
 })
 
 
-
-Tab:AddButton({
-	Name = "Domadic Hub",
-	Callback = function()
-      		print("button pressed")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
-  	end    
-})
-
-
 Tab:AddButton({
 	Name = "Hiru Hub",
 	Callback = function()
