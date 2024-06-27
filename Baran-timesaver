@@ -210,10 +210,34 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
+
+
+Tab:AddButton({
+	Name = "x sea",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/XRayDerxDOne/Release-/main/Release.lua"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "sun hub",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/SunHub", true))()
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "wyndi hub",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/Rewrite.lua"))()
+  	end    
+})
 
 
 local Tab = Window:MakeTab({
@@ -230,5 +254,4 @@ local Section = Tab:AddSection({
 --[[
 Name = <string> - The name of the section.
 ]]
-
 
