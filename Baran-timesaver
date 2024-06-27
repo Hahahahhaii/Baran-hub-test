@@ -8,27 +8,8 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
---[[
-Title = <string> - The title of the notification.
-Content = <string> - The content of the notification.
-Image = <string> - The icon of the notification.
-Time = <number> - The duration of the notfication.
-]]
-
 
 local Window = OrionLib:MakeWindow({Name = "Baran Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",  IntroText = "Baran Hub"})
-
---[[
-Name = <string> - The name of the UI.
-HidePremium = <bool> - Whether or not the user details shows Premium status or not.
-SaveConfig = <bool> - Toggles the config saving in the UI.
-ConfigFolder = <string> - The name of the folder where the configs are saved.
-IntroEnabled = <bool> - Whether or not to show the intro animation.
-IntroText = <string> - Text to show in the intro animation.
-IntroIcon = <string> - URL to the image you want to use in the intro animation.
-Icon = <string> - URL to the image you want displayed on the window.
-CloseCallback = <function> - Function to execute when the window is closed.
-]]
 
 
 local Tab = Window:MakeTab({
@@ -37,20 +18,10 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
-
 
 local Section = Tab:AddSection({
 	Name = "Famosinhos"
 })
-
---[[
-Name = <string> - The name of the section.
-]]
 
 
 Tab:AddButton({
@@ -61,10 +32,6 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 
 
 Tab:AddButton({
@@ -75,11 +42,6 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
 
 Tab:AddButton({
 	Name = "Hiru Hub",
@@ -88,11 +50,6 @@ Tab:AddButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/V3PRO/main/HiruHub.lua"))()
   	end    
 })
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 
 
 Tab:AddButton({
@@ -103,11 +60,6 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
 
 Tab:AddButton({
 	Name = "Uranium Hub",
@@ -116,11 +68,6 @@ Tab:AddButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
   	end    
 })
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 
 
 Tab:AddButton({
@@ -131,11 +78,6 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]--
-
 
 Tab:AddButton({
 	Name = "Strawberry Hub",
@@ -144,11 +86,6 @@ Tab:AddButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/CheemsNhuChiAl/Sotringhuhu/main/StrawberryHup"))() 
   	end    
 })
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 
 
 Tab:AddButton({
@@ -159,19 +96,10 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
 
 local Section = Tab:AddSection({
 	Name = "Update baran hub! filhos da puta desses YouTuber fudido passando fome é?"
 })
-
---[[
-Name = <string> - The name of the section.
-]]
 
 
 Tab:AddButton({
@@ -182,11 +110,6 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
 
 Tab:AddButton({
 	Name = "cockka hub key toda hora muda mas pobre não pode reclamar",
@@ -196,11 +119,6 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
 
 Tab:AddButton({
 	Name = "Gomu hub",
@@ -209,7 +127,6 @@ Tab:AddButton({
       loadstring(game:HttpGet('https://raw.githubusercontent.com/pokelok/Gomu-2.0/main/2'))()
   	end    
 })
-
 
 
 Tab:AddButton({
@@ -228,7 +145,6 @@ Tab:AddButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/SunHub", true))()
   	end    
 })
-
 
 
 Tab:AddButton({
@@ -250,8 +166,4 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "feito por baran se insceve no meu canal do yt capybara tutorials"
 })
-
---[[
-Name = <string> - The name of the section.
-]]
 
